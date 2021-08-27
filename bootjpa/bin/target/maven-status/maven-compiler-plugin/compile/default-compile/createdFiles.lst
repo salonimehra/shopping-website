@@ -1,0 +1,3 @@
+com\shopping\model\Book.class
+com\example\demo\BootjpaApplication.class
+com\shopping\repository\BookRepository.class
