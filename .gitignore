@@ -1,2 +1,12 @@
 /.metadata/
 /.sonarlint/
+/Authorizatiion-Microservice/.settings
+/Authorizatiion-Microservice/bin/
+/Authorizatiion-Microservice/.classpath
+Authorizatiion-Microservice/.project
+Authorizatiion-Microservice/target/classes/META-INF/MANIFEST.MF
+Inventory/.settings/
+/placed_orders/.classpath
+/placed_orders/.project
+placed_orders/.settings/
+placed_orders/target/
