@@ -40,3 +40,14 @@
 2021-09-06_12-50-14 [http-nio-8084-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
 2021-09-06_12-50-14 [http-nio-8084-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
 2021-09-06_12-50-14 [http-nio-8084-exec-5] INFO  c.c.a.c.JwtAuthenticationController - eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTYzMDkxNDg0NiwiaWF0IjoxNjMwOTEzMDQ2fQ.kGFHG7CH5dtVIN-2zAN85qL8uBgTnzJP-na45FoVh9dQQaMjKw-HCvxKh3uJxdw-4QKigJZdgnLIAyF-R2GdDA
+2021-09-06_12-50-14 [RMI TCP Connection(59)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-09-06_12-50-14 [RMI TCP Connection(59)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8084"]
+2021-09-06_12-50-14 [RMI TCP Connection(59)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2021-09-06_12-50-14 [RMI TCP Connection(59)-127.0.0.1] INFO  o.a.c.c.C.[.[localhost].[/auth] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-09-06_12-50-14 [RMI TCP Connection(59)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8084"]
+2021-09-06_12-50-14 [RMI TCP Connection(59)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8084"]
+2021-09-06_12-50-14 [RMI TCP Connection(59)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-06_12-50-14 [RMI TCP Connection(59)-127.0.0.1] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-06_12-50-14 [RMI TCP Connection(59)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-06_12-50-14 [RMI TCP Connection(59)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-09-06_12-50-14 [RMI TCP Connection(59)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

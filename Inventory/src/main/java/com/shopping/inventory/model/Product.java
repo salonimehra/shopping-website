@@ -23,17 +23,20 @@ public class Product {
 
 	@Column(name = "price")
 	private int price;
+	@Column(name="inStock")
+	private boolean inStock;
 	
 	
 	public Product() {
 
 	}
 
-	public Product(String name, String description, String brand,int price) {
+	public Product(String name, String description, String brand,int price,boolean inStock) {
 		this.name = name;
 		this.description = description;
 		this.brand = brand;
 		this.price=price;
+		this.inStock=inStock;
 	}
 	
 

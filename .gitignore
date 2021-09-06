@@ -1,6 +1,7 @@
 /.metadata/
 /.sonarlint/
 /Authorizatiion-Microservice/.settings
+//Authorizatiion-Microservice/logs
 /Authorizatiion-Microservice/bin/
 /Authorizatiion-Microservice/.classpath
 Authorizatiion-Microservice/.project
