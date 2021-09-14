@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.cart.Feign.AuthenticationFeignClient;
+import com.cart.Feign.InventoryFeign;
 import com.cart.Service.CartService;
 
 @RestController
@@ -14,5 +15,8 @@ public class CartController {
 	CartService cartService;
 	@Autowired
 	AuthenticationFeignClient authenticationfeign;
+	@Autowired
+	InventoryFeign inventoryFeign;
+	
 	
 }
