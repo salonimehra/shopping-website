@@ -1,12 +1,14 @@
 package com.cts.placed_orders.controllers;
 
 import java.util.List;
+
 import java.util.Objects;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
@@ -28,17 +30,22 @@ public class PlacedOrderController {
 	@Autowired
 	AuthenticationFeignClient authenticationfeign;
 	
-	@PostMapping("/placeorder")
-	public ResponseEntity<?> placeorder(@RequestBody List<ProductDetails> products,
+	@PostMapping("/placeorder/{productId}/{productQuantity}")
+	public ResponseEntity<?> placeorder(@PathVariable Integer productId, @PathVariable Integer  productQuantity,
 			@RequestHeader(value = "Authorization",required =  true) String requestTokenHeader){
+		
 		if (authenticationfeign.authorizeTheRequest(requestTokenHeader))
 		{
-		boolean status=placedOrdersService.placeorder(products);
+			Long orderedProductId=new Long(productId);
+			// Integer productQuantity =2;
+				
+			System.out.println(productId+" controller"+productQuantity);
+		boolean status=placedOrdersService.placeorder(orderedProductId,productQuantity);
 		//later appropriate exception to be added
 		if(status == true)
 		return new ResponseEntity<>(status,HttpStatus.OK);
 		else {
-			return new ResponseEntity<>("Out of stock",HttpStatus.PRECONDITION_FAILED);
+			return new ResponseEntity<>("Out of stock",HttpStatus.NOT_FOUND);
 
 		}
 		}
