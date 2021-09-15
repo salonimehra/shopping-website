@@ -1,5 +1,7 @@
 package com.cts.placed_orders.model;
 
+import javax.persistence.Column;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -9,10 +11,20 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class ProductDetails {
 	
-	private long productId;
-	private String productName;
-	private String productDescription;
-	private String productBrand;
-	private int productPrice;
-	private boolean productInStock;
+	private long id;
+
+	
+	private String name;
+
+	
+	private String description;
+
+
+	private String brand;
+
+
+	private int price;
+
+	private boolean inStock;
+	
 }
