@@ -1,0 +1,7 @@
+2021-09-15_11-19-41 [http-nio-8084-exec-1] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.USERS(ID) [1, 'password@admin', 'admin']"; SQL statement:
+insert into users (password, user_name, id) values (?, ?, ?) [23505-200]
+2021-09-15_11-19-41 [http-nio-8084-exec-1] ERROR c.c.a.e.GlobalExceptionHandler - could not execute statement; SQL [n/a]; constraint ["PRIMARY KEY ON PUBLIC.USERS(ID) [1, 'password@admin', 'admin']"; SQL statement:
+insert into users (password, user_name, id) values (?, ?, ?) [23505-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-09-15_11-22-50 [http-nio-8084-exec-2] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.USERS(ID) [1, 'password@admin', 'admin']"; SQL statement:
+insert into users (password, user_name, id) values (?, ?, ?) [23505-200]
+2021-09-15_11-22-50 [http-nio-8084-exec-2] ERROR c.c.a.e.GlobalExceptionHandler - Bad Credentials
