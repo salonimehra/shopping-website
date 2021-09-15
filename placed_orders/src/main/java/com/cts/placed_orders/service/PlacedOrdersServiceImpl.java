@@ -18,7 +18,6 @@ public class PlacedOrdersServiceImpl implements PlacedOrdersService{
 	private PlacedOrdersRepository placedOrdersRepository;
 	
 	//feign client
-	
 	@Autowired
 	private InventoryFeignClient inventoryFeignClient;
 	
@@ -39,50 +38,28 @@ public class PlacedOrdersServiceImpl implements PlacedOrdersService{
 	public boolean placeorder(Long productId, Integer productQuantity) {
 		
 		//for(ProductDetails product:products) {
-		System.out.println("service layer");
+	
 			ProductDetails productInStock=inventoryFeignClient.getProductById(productId);
-			System.out.println(productInStock+" "+productId);
 			//for(ProductDetails productDetail:productInStock) {
-				if(productInStock.isProductInStock()) {
-					OrderDetails order = new OrderDetails();
-					order.setProductId(productInStock.getProductId());
-					order.setProductName(productInStock.getProductName());
-					order.setProductDescription(productInStock.getProductDescription());
-					order.setProductQuantity(productQuantity);
+				if(productInStock.isInStock()) {
+					OrderDetails order = new OrderDetails(productInStock.getId(),productInStock.getName(),
+							productInStock.getDescription(),productInStock.getBrand(),
+							productInStock.getPrice(),productQuantity);
 					placedOrdersRepository.save(order);
 					return true;
 				}
 				
-			//}
-			//later out of stock exception to be added here
+			//later product not found or out of stock exception to be added
 				else return false;
-		//}
-		
-//		OrderDetails orderDetails = new OrderDetails();
-//		orderDetails.setProductDetails(products);
-//		placedOrdersRepository.save(orderDetails);
-//		
-		//List<OrderDetails> ordersDetails=new ArrayList<OrderDetails>();
-		
-		//for(ProductDetails product:products) {
-		//	System.out.println(productDetails.get(product.getProductId()-1).getQuantity());
-//			order.setProductDetails(product);
-			
-			//ordersDetails.add(order);
-//			productDetails.get(orderedProduct.getProductId()-1).setQuantity(
-//					productDetails.get(orderedProduct.getProductId()-1).getQuantity()-
-//					orderedProduct.getQuantity());
-			//product.setQuantity(product.getQuantity()-order.getQuantity());
-			//System.out.println(productDetails.get(orderedProduct.getProductId()-1).getQuantity());
-		//}
 		
 	}
+	
 
 	@Override
-	public OrderDetails getOrderDetailsById(Integer id) {
+	public OrderDetails getOrderDetailsById(Integer orderId) {
 
 		//later order not present exception to be added here
-		OrderDetails orderDetails = placedOrdersRepository.findById(id).orElse(null);
+		OrderDetails orderDetails = placedOrdersRepository.findById(orderId).orElse(null);
 		return orderDetails;
 	}
 

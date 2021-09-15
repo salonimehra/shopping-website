@@ -12,6 +12,6 @@ public interface PlacedOrdersService {
 	
 	public boolean placeorder(Long productId, Integer productQuantity);
 	public List<OrderDetails> getPlacedOrdersDetail();
-	public OrderDetails getOrderDetailsById(Integer id);
+	public OrderDetails getOrderDetailsById(Integer orderId);
 
 }
