@@ -10,6 +10,6 @@ import com.cts.placed_orders.model.ProductDetails;
 @FeignClient(name="inventory",url="${inventory.url}")
 public interface InventoryFeignClient {
 
-	@GetMapping("/products/{id}")
+	@GetMapping("/getProductById/{id}")
 	public ProductDetails getProductById(@PathVariable("id") long id);
 }
