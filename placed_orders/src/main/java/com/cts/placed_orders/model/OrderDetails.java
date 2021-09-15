@@ -1,9 +1,5 @@
 package com.cts.placed_orders.model;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.persistence.ElementCollection;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -25,12 +21,25 @@ public class OrderDetails {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	Integer orderid;
+	Integer orderId;
 //	@ElementCollection
 //	List<ProductDetails> productDetails = new ArrayList<ProductDetails>();
 //	ProductDetails productDetails;
-	Integer productid;
-	String name;
-	String descrption;
-	Integer quantity;
+	private Long productId;
+	private String productName;
+	private String productDescription;
+	private String productBrand;
+	private Integer productPrice;
+	private Integer productQuantity;
+	public OrderDetails(Long productId, String productName, String productDescription, String productBrand,
+			Integer productPrice, Integer productQuantity) {
+		super();
+		this.productId = productId;
+		this.productName = productName;
+		this.productDescription = productDescription;
+		this.productBrand = productBrand;
+		this.productPrice = productPrice;
+		this.productQuantity = productQuantity;
+	}
+	
 }

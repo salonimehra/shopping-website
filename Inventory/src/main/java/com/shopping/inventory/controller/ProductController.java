@@ -21,9 +21,12 @@ import org.springframework.web.bind.annotation.RestController;
 import com.shopping.inventory.model.Product;
 import com.shopping.inventory.repository.ProductRepository;
 
+import lombok.extern.slf4j.Slf4j;
+
 @CrossOrigin(origins = "http://localhost:8081")
 @RestController
 @RequestMapping("/api")
+@Slf4j
 public class ProductController {
 
 	@Autowired
@@ -49,15 +52,19 @@ public class ProductController {
 		}
 	}
 
-	@GetMapping("/products/{id}")
+	@GetMapping("/getProductById/{id}")
 	public ResponseEntity<Product> getProductById(@PathVariable("id") long id) {
+		System.out.println("in get product by id"+id);
+		log.info("start");
 		Optional<Product> productData = productRepository.findById(id);
-
+		System.out.println(productData.isPresent());
 		if (productData.isPresent()) {
+			System.out.println(productData.get());
 			return new ResponseEntity<>(productData.get(), HttpStatus.OK);
 		} else {
 			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
 		}
+	
 	}
 
 	@PostMapping("/products")

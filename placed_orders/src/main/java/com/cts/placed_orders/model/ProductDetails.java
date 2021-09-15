@@ -1,26 +1,30 @@
 package com.cts.placed_orders.model;
 
-//import javax.persistence.Entity;
-//import javax.persistence.GeneratedValue;
-//import javax.persistence.GenerationType;
-//import javax.persistence.Id;
-//import javax.persistence.Table;
+import javax.persistence.Column;
 
 import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
-@Getter
-@Setter
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
 public class ProductDetails {
+	
+	private long id;
 
 	
-	Integer productid;
-	String name;
-	String descrption;
-	Integer quantity;
+	private String name;
+
+	
+	private String description;
+
+
+	private String brand;
+
+
+	private int price;
+
+	private boolean inStock;
 	
 }
