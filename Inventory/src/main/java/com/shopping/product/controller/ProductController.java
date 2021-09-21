@@ -1,4 +1,4 @@
-package com.shopping.inventory.controller;
+package com.shopping.product.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,8 +18,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.shopping.inventory.model.Product;
-import com.shopping.inventory.repository.ProductRepository;
+import com.shopping.product.model.Product;
+import com.shopping.product.repository.ProductRepository;
 
 import lombok.extern.slf4j.Slf4j;
 

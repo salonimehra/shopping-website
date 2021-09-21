@@ -336,3 +336,14 @@
 2021-09-15_15-40-56 [http-nio-8084-exec-2] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2021-09-15_15-40-56 [http-nio-8084-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2021-09-15_15-40-56 [http-nio-8084-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-09-15_15-40-56 [RMI TCP Connection(16)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-09-15_15-40-56 [RMI TCP Connection(16)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8084"]
+2021-09-15_15-40-56 [RMI TCP Connection(16)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2021-09-15_15-40-56 [RMI TCP Connection(16)-127.0.0.1] INFO  o.a.c.c.C.[.[localhost].[/auth] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-09-15_15-40-56 [RMI TCP Connection(16)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8084"]
+2021-09-15_15-40-56 [RMI TCP Connection(16)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8084"]
+2021-09-15_15-40-56 [RMI TCP Connection(16)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-15_15-40-56 [RMI TCP Connection(16)-127.0.0.1] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-15_15-40-56 [RMI TCP Connection(16)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-15_15-40-56 [RMI TCP Connection(16)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2021-09-15_15-40-56 [RMI TCP Connection(16)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
