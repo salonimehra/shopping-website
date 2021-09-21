@@ -18,7 +18,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.shopping.product.Feign.StockFeignClient;
 import com.shopping.product.model.Product;
+import com.shopping.product.model.StockDetails;
 import com.shopping.product.repository.ProductRepository;
 
 import lombok.extern.slf4j.Slf4j;
@@ -31,7 +33,8 @@ public class ProductController {
 
 	@Autowired
 	ProductRepository productRepository;
-
+	@Autowired
+	StockFeignClient stockFeign;
 	@GetMapping("/products")
 	public ResponseEntity<List<Product>> getAllproducts(@RequestParam(required = false) String name) {
 		try {
@@ -71,7 +74,8 @@ public class ProductController {
 	public ResponseEntity<Product> createProduct(@RequestBody Product product) {
 		try {
 			Product _product= productRepository
-					.save(new Product(product.getName(), product.getDescription(), product.getBrand(),product.getPrice(),product.isInStock()));
+					.save(new Product(product.getName(), product.getDescription(), product.getBrand(),product.getPrice(),product.getImgURL()));
+			stockFeign.updateStocks(new StockDetails(product.getId(),1000));
 			return new ResponseEntity<>(_product, HttpStatus.CREATED);
 		} catch (Exception e) {
 			return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);

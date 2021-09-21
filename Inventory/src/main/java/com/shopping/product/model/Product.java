@@ -28,20 +28,20 @@ public class Product {
 
 	@Column(name = "price")
 	private int price;
-	@Column(name="inStock")
-	private boolean inStock;
+	@Column(name="imgURL")
+	private String imgURL;
 	
 	
 	public Product() {
 
 	}
 
-	public Product(String name, String description, String brand,int price,boolean inStock) {
+	public Product(String name, String description, String brand,int price,String imgURL) {
 		this.name = name;
 		this.description = description;
 		this.brand = brand;
 		this.price=price;
-		this.inStock=inStock;
+		this.imgURL=imgURL;
 	}
 	
 
