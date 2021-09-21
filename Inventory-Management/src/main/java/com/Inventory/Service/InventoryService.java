@@ -13,6 +13,7 @@ public class InventoryService {
 	
 	public boolean addProductinStock(StockDetails stockDetails) throws Exception {
 		try {
+			System.out.println(stockDetails.getId());
 			stockRepository.save(stockDetails);
 			return true;
 			}
@@ -24,7 +25,7 @@ public class InventoryService {
 	public boolean updateProductAfterOrder(StockDetails stockDetails) throws Exception {
 		//check if the order for the amount is in stock if it is then update accordingly and return true
 		StockDetails product=stockRepository.findById(stockDetails.getId()).get();
-		if(product.getStock()>stockDetails.getStock()) {
+		if(product.getStock()<stockDetails.getStock()) {//edit change in greater than symbol
 			throw new Exception("Out Of Stocks");
 		}
 		else {
