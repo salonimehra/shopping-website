@@ -10,7 +10,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -76,8 +75,8 @@ public class PlacedOrderController {
 	 *  This method takes order id as parameter and search for the order. If that order is present
 	 *  it returns the order details else return order not found exception
 	 */
-	@PostMapping("/getordersbyid")
-	public ResponseEntity<?> getOrdersByid(@RequestBody Integer orderId,
+	@GetMapping("/orders/{orderId}")
+	public ResponseEntity<?> getOrdersByid(@PathVariable Integer orderId,
 			@RequestHeader(value = "Authorization",required =  true) String requestTokenHeader){
 		log.info("get order by id entry point started of placed-order microservice");
 		if (authenticationfeign.authorizeTheRequest(requestTokenHeader))
@@ -103,7 +102,7 @@ public class PlacedOrderController {
 	 *  @return     --> Order details
 	 *  This method returns the details of all the orders placed.
 	 */
-	@GetMapping("/getallorders")
+	@GetMapping("/orders")
 	public ResponseEntity<?> getAllOrders(@RequestHeader(value = "Authorization",required =  true) String requestTokenHeader){
 		log.info("get all orders entry point started of placed-order microservice");
 		if (authenticationfeign.authorizeTheRequest(requestTokenHeader))
