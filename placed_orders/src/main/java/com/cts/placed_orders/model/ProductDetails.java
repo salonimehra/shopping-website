@@ -1,7 +1,5 @@
 package com.cts.placed_orders.model;
 
-import javax.persistence.Column;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
