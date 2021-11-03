@@ -1,0 +1,338 @@
+2021-09-23_20-52-18 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-23_20-52-19 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-09-23_20-52-19 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-09-23_20-52-19 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 143ms. Found 1 JPA repository interfaces.
+2021-09-23_20-52-19 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=69e91d5e-5882-35b1-ab22-fa36fd2aab94
+2021-09-23_20-52-19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+2021-09-23_20-52-19 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2021-09-23_20-52-19 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-23_20-52-19 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-09-23_20-52-19 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2021-09-23_20-52-19 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3526 ms
+2021-09-23_20-52-19 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-09-23_20-52-19 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-09-23_20-52-19 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pharmadb'
+2021-09-23_20-52-19 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-23_20-52-19 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-23_20-52-19 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.18.Final
+2021-09-23_20-52-19 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-09-23_20-52-19 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-23_20-52-19 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-23_20-52-19 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@16c307b3, org.springframework.security.web.context.SecurityContextPersistenceFilter@5b12b81e, org.springframework.security.web.header.HeaderWriterFilter@7c9c6fc5, org.springframework.security.web.authentication.logout.LogoutFilter@541a2ec2, com.cts.authorization.config.JwtRequestFilter@3a761822, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3049335c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1443970a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@32a608e7, org.springframework.security.web.session.SessionManagementFilter@231ab2a1, org.springframework.security.web.access.ExceptionTranslationFilter@6b7164e8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@676de426]
+2021-09-23_20-52-19 [restartedMain] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-09-23_20-52-19 [restartedMain] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-09-23_20-52-19 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-09-23_20-52-19 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-23_20-52-19 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-23_20-52-19 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2021-09-23_20-52-19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path '/auth'
+2021-09-23_20-52-19 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-23_20-52-19 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-23_20-52-19 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-23_20-52-19 [restartedMain] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2021-09-23_20-52-19 [restartedMain] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2021-09-23_20-52-19 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Started AuthorizatiionMicroserviceApplication in 8.272 seconds (JVM running for 9.815)
+2021-09-23_20-52-19 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-23_20-52-19 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-23_20-52-19 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2021-09-23_20-52-19 [http-nio-8084-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-7] INFO  c.c.a.c.JwtAuthenticationController - eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJLYXNoYWYiLCJleHAiOjE2MzI0MTI0NDgsImlhdCI6MTYzMjQxMDY0OH0.EcdR4DiPM_9o8aLH7IfjfIGwSj0KSDV7JTI81tKD-0pTFB3FbzfX8KETT5JoykDW3dA8pR8irjQAWmfF_17d0Q
+2021-09-23_20-52-19 [http-nio-8084-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-2] INFO  c.c.a.c.JwtAuthenticationController - eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTYzMjQxNDI4OCwiaWF0IjoxNjMyNDEyNDg4fQ.5DV2M0XkJLdeDIBZuonlzZI8ZbUfjF03WXU4ebprJ-pL0eBjVEiJCFsC_z_nqVVct1KI5T_WJdQJY2k1DXi7rw
+2021-09-23_20-52-19 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-5] INFO  c.c.a.c.JwtAuthenticationController - eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTYzMjQxNTE5NCwiaWF0IjoxNjMyNDEzMzk0fQ.3eV-T7Jt75joz-NeVybYp2zlYEWBNO-3ouQbusMLugscTS2qbVvY53weLdrzolkjRnUjmLoU17XcJHpVsLIivg
+2021-09-23_20-52-19 [http-nio-8084-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-10] INFO  c.c.a.c.JwtAuthenticationController - eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTYzMjQxNTU2MiwiaWF0IjoxNjMyNDEzNzYyfQ.W_thXXB1i-tzFgO6GYFLeRpMYqoDKYl97uv-YFIwvI5foeUKJcf2hgPbCgbu6SdDCUmp4MVhPOIocxUf_jmo_Q
+2021-09-23_20-52-19 [http-nio-8084-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-7] INFO  c.c.a.c.JwtAuthenticationController - eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTYzMjQxNzI1NCwiaWF0IjoxNjMyNDE1NDU0fQ.2O2XKZI1rUdw6Gz7dTJXHckCQHIgwqFg0hmUJIn0DzgJe_aH32r96Sz0VVhlcOgmyzGzOkJf2LsB-NW7Ri5AyA
+2021-09-23_20-52-19 [http-nio-8084-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-10] INFO  c.c.a.c.JwtAuthenticationController - eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTYzMjQxNzQzOCwiaWF0IjoxNjMyNDE1NjM4fQ.0TgSRNVltqh69c1-uQ1isYflpbmZlrxfljZDtz9fzl_y7vBKoXpAKV4fGmBWhyemJ1O12fC_eN7mfkSDkks8fQ
+2021-09-23_20-52-19 [http-nio-8084-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-7] INFO  c.c.a.c.JwtAuthenticationController - eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTYzMjQxODQ4NiwiaWF0IjoxNjMyNDE2Njg2fQ.atKYGzFJFoLrDMpQFSULcNMLnQ434RTvUoiH9kH934XTZrQGxggXmt8Hiz9Z48_4Vd9gW-7nwynh82oAarkx2w
+2021-09-23_20-52-19 [http-nio-8084-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [http-nio-8084-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_20-52-19 [http-nio-8084-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_20-52-19 [RMI TCP Connection(108)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-09-23_20-52-19 [RMI TCP Connection(108)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8084"]
+2021-09-23_20-52-19 [RMI TCP Connection(108)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2021-09-23_20-52-19 [RMI TCP Connection(108)-127.0.0.1] INFO  o.a.c.c.C.[.[localhost].[/auth] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-09-23_20-52-19 [RMI TCP Connection(108)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8084"]
+2021-09-23_20-52-19 [RMI TCP Connection(108)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8084"]
+2021-09-23_20-52-19 [RMI TCP Connection(108)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-23_20-52-19 [RMI TCP Connection(108)-127.0.0.1] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-23_20-52-19 [RMI TCP Connection(108)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-23_20-52-19 [RMI TCP Connection(108)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-09-23_20-52-19 [RMI TCP Connection(108)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-09-23_22-37-16 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-23_22-37-16 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-09-23_22-37-16 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-09-23_22-37-16 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 77ms. Found 1 JPA repository interfaces.
+2021-09-23_22-37-16 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=69e91d5e-5882-35b1-ab22-fa36fd2aab94
+2021-09-23_22-37-16 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+2021-09-23_22-37-16 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2021-09-23_22-37-16 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-23_22-37-16 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-09-23_22-37-16 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2021-09-23_22-37-16 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2518 ms
+2021-09-23_22-37-16 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-09-23_22-37-16 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-09-23_22-37-16 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pharmadb'
+2021-09-23_22-37-16 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-23_22-37-16 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-23_22-37-16 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.18.Final
+2021-09-23_22-37-16 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-09-23_22-37-16 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-23_22-37-16 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-23_22-37-16 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29dc9148, org.springframework.security.web.context.SecurityContextPersistenceFilter@34574493, org.springframework.security.web.header.HeaderWriterFilter@5a7b51dc, org.springframework.security.web.authentication.logout.LogoutFilter@60bf2f29, com.cts.authorization.config.JwtRequestFilter@7452deb8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1e2e9cc8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7b08e516, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@690384f6, org.springframework.security.web.session.SessionManagementFilter@401ff342, org.springframework.security.web.access.ExceptionTranslationFilter@192ece29, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@75171863]
+2021-09-23_22-37-16 [restartedMain] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-09-23_22-37-16 [restartedMain] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-09-23_22-37-16 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-09-23_22-37-16 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-23_22-37-16 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-23_22-37-16 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2021-09-23_22-37-16 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path '/auth'
+2021-09-23_22-37-16 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-23_22-37-16 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-23_22-37-16 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-23_22-37-16 [restartedMain] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2021-09-23_22-37-16 [restartedMain] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2021-09-23_22-37-16 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Started AuthorizatiionMicroserviceApplication in 6.565 seconds (JVM running for 7.695)
+2021-09-23_22-37-16 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-23_22-37-16 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-23_22-37-16 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2021-09-23_22-37-16 [http-nio-8084-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-1] INFO  c.c.a.c.JwtAuthenticationController - eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTYzMjQxODc2NywiaWF0IjoxNjMyNDE2OTY3fQ.98WAeNSLbKXYKqnmvXGoDpY6-ti8SEVKhndfOcgd62i9pvlMaxTUHTqy6YOV8ZB-pp-zR6KiGAB2LyQj__3Q_g
+2021-09-23_22-37-16 [http-nio-8084-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-3] INFO  c.c.a.c.JwtAuthenticationController - eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTYzMjQxOTA1NCwiaWF0IjoxNjMyNDE3MjU0fQ.eEiKtog-o77sksWEB7BfjDMzJVwmPvmqtvZZehO_SUqfvpK2mIUm5vTPMRR63KBvTIjgvbCiuvQY1gDVNLC89A
+2021-09-23_22-37-16 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-4] INFO  c.c.a.c.JwtAuthenticationController - eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTYzMjQxOTE1OSwiaWF0IjoxNjMyNDE3MzU5fQ.2nxy7drL1bOjfvlJgUSGHTPrrqIqclpOPn4SGGYMqicfIgKrcafqydjTptaZoFTrRGNNRNsunN_VHzVlkvrMZQ
+2021-09-23_22-37-16 [http-nio-8084-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-4] INFO  c.c.a.c.JwtAuthenticationController - eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTYzMjQxOTIzMywiaWF0IjoxNjMyNDE3NDMzfQ.0243ytL7ayizutz8f-6W6C0Z5REgdROzq08VeARaClfszv-YOt9om8F2ULnau60w4BLMqIvp0MSpHCfFEcaYqw
+2021-09-23_22-37-16 [http-nio-8084-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-09-23_22-37-16 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-09-23_22-37-16 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located

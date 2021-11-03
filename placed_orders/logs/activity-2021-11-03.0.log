@@ -1,0 +1,234 @@
+2021-11-03_17-10-50 [main] INFO  c.c.p.PlacedOrdersApplication - inside application class of Placed order microservice
+2021-11-03_17-10-50 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - inside application class of Placed order microservice
+2021-11-03_17-10-51 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - Starting PlacedOrdersApplication using Java 15.0.1 on LTIN176896 with PID 20796 (C:\Users\905153\Documents\s_workspace\shopping-website-main.zip_expanded\shopping-website-main\placed_orders\target\classes started by 905153 in C:\Users\905153\Documents\s_workspace\shopping-website-main.zip_expanded\shopping-website-main\placed_orders)
+2021-11-03_17-10-51 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - No active profile set, falling back to default profiles: default
+2021-11-03_17-10-51 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-03_17-10-51 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-03_17-10-51 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-03_17-10-51 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 341 ms. Found 1 JPA repository interfaces.
+2021-11-03_17-10-51 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2cb7aa9a-a0df-37d0-9e70-dc69e5def960
+2021-11-03_17-10-51 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$13cd926f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-03_17-10-51 [restartedMain] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-11-03_17-10-51 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2021-11-03_17-10-51 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2021-11-03_17-10-51 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-03_17-10-51 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-03_17-10-51 [restartedMain] INFO  o.a.c.c.C.[.[.[/placed-order] - Initializing Spring embedded WebApplicationContext
+2021-11-03_17-10-51 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4381 ms
+2021-11-03_17-10-51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-03_17-10-51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-03_17-10-51 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:placedOrderDB'
+2021-11-03_17-10-51 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-03_17-10-51 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-03_17-10-51 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-03_17-10-51 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-03_17-10-51 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-03_17-10-51 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-03_17-10-51 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2021-11-03_17-10-51 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path '/placed-order'
+2021-11-03_17-10-51 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - Started PlacedOrdersApplication in 11.919 seconds (JVM running for 15.157)
+2021-11-03_17-10-51 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - end of application class of Placed order microservice
+2021-11-03_17-10-51 [http-nio-8085-exec-1] INFO  o.a.c.c.C.[.[.[/placed-order] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-03_17-10-51 [http-nio-8085-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-03_17-10-51 [http-nio-8085-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 54 ms
+2021-11-03_17-10-51 [http-nio-8085-exec-3] INFO  c.c.p.c.PlacedOrderController - place order entry point started of placed-order microservice
+2021-11-03_17-10-51 [http-nio-8085-exec-4] INFO  c.c.p.c.PlacedOrderController - get all orders entry point started of placed-order microservice
+2021-11-03_17-10-51 [http-nio-8085-exec-4] INFO  c.c.p.c.PlacedOrderController - Authentication failed for get all orders entry point
+2021-11-03_17-10-51 [http-nio-8085-exec-3] INFO  c.c.p.c.PlacedOrderController - Authentication failed for placed order entry point
+2021-11-03_17-10-51 [http-nio-8085-exec-7] INFO  c.c.p.c.PlacedOrderController - place order entry point started of placed-order microservice
+2021-11-03_17-10-51 [http-nio-8085-exec-8] INFO  c.c.p.c.PlacedOrderController - get all orders entry point started of placed-order microservice
+2021-11-03_17-10-51 [http-nio-8085-exec-7] INFO  c.c.p.c.PlacedOrderController - Returning placed order true status from place order entry point
+2021-11-03_17-10-51 [http-nio-8085-exec-1] INFO  c.c.p.c.PlacedOrderController - get all orders entry point started of placed-order microservice
+2021-11-03_17-10-51 [http-nio-8085-exec-1] INFO  c.c.p.c.PlacedOrderController - Returning resultant data from get all orders entry point
+2021-11-03_17-10-51 [http-nio-8085-exec-10] INFO  c.c.p.c.PlacedOrderController - place order entry point started of placed-order microservice
+2021-11-03_17-10-51 [http-nio-8085-exec-10] INFO  c.c.p.c.PlacedOrderController - Returning placed order true status from place order entry point
+2021-11-03_17-10-51 [http-nio-8085-exec-4] INFO  c.c.p.c.PlacedOrderController - place order entry point started of placed-order microservice
+2021-11-03_17-10-51 [http-nio-8085-exec-5] INFO  c.c.p.c.PlacedOrderController - get all orders entry point started of placed-order microservice
+2021-11-03_17-10-51 [http-nio-8085-exec-5] INFO  c.c.p.c.PlacedOrderController - Returning resultant data from get all orders entry point
+2021-11-03_17-10-51 [http-nio-8085-exec-4] INFO  c.c.p.c.PlacedOrderController - Returning placed order true status from place order entry point
+2021-11-03_17-10-51 [http-nio-8085-exec-7] INFO  c.c.p.c.PlacedOrderController - place order entry point started of placed-order microservice
+2021-11-03_17-10-51 [http-nio-8085-exec-9] INFO  c.c.p.c.PlacedOrderController - get all orders entry point started of placed-order microservice
+2021-11-03_17-10-51 [http-nio-8085-exec-9] INFO  c.c.p.c.PlacedOrderController - Returning resultant data from get all orders entry point
+2021-11-03_17-10-51 [http-nio-8085-exec-7] INFO  c.c.p.c.PlacedOrderController - Returning placed order true status from place order entry point
+2021-11-03_17-10-51 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-03_17-10-51 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-03_17-10-51 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-03_17-10-51 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - inside application class of Placed order microservice
+2021-11-03_18-12-54 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - Starting PlacedOrdersApplication using Java 15.0.1 on LTIN176896 with PID 20796 (C:\Users\905153\Documents\s_workspace\shopping-website-main.zip_expanded\shopping-website-main\placed_orders\target\classes started by 905153 in C:\Users\905153\Documents\s_workspace\shopping-website-main.zip_expanded\shopping-website-main\placed_orders)
+2021-11-03_18-12-54 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - No active profile set, falling back to default profiles: default
+2021-11-03_18-12-54 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-03_18-12-54 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interfaces.
+2021-11-03_18-12-54 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2cb7aa9a-a0df-37d0-9e70-dc69e5def960
+2021-11-03_18-12-54 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$13cd926f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-03_18-12-54 [restartedMain] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-11-03_18-12-54 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2021-11-03_18-12-54 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2021-11-03_18-12-54 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-03_18-12-54 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-03_18-12-54 [restartedMain] INFO  o.a.c.c.C.[.[.[/placed-order] - Initializing Spring embedded WebApplicationContext
+2021-11-03_18-12-54 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 984 ms
+2021-11-03_18-12-54 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2021-11-03_18-12-54 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2021-11-03_18-12-54 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:placedOrderDB'
+2021-11-03_18-12-54 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-03_18-12-54 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-03_18-12-54 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-03_18-12-54 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-03_18-12-54 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2021-11-03_18-12-54 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path '/placed-order'
+2021-11-03_18-12-54 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - Started PlacedOrdersApplication in 2.467 seconds (JVM running for 3728.856)
+2021-11-03_18-12-54 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-11-03_18-12-54 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - end of application class of Placed order microservice
+2021-11-03_18-12-54 [Thread-8] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-03_18-12-54 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2021-11-03_18-12-54 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2021-11-03_18-12-54 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - inside application class of Placed order microservice
+2021-11-03_18-13-19 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - Starting PlacedOrdersApplication using Java 15.0.1 on LTIN176896 with PID 20796 (C:\Users\905153\Documents\s_workspace\shopping-website-main.zip_expanded\shopping-website-main\placed_orders\target\classes started by 905153 in C:\Users\905153\Documents\s_workspace\shopping-website-main.zip_expanded\shopping-website-main\placed_orders)
+2021-11-03_18-13-19 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - No active profile set, falling back to default profiles: default
+2021-11-03_18-13-19 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-03_18-13-19 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interfaces.
+2021-11-03_18-13-19 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2cb7aa9a-a0df-37d0-9e70-dc69e5def960
+2021-11-03_18-13-19 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$13cd926f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-03_18-13-19 [restartedMain] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-11-03_18-13-19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2021-11-03_18-13-19 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2021-11-03_18-13-19 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-03_18-13-19 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-03_18-13-19 [restartedMain] INFO  o.a.c.c.C.[.[.[/placed-order] - Initializing Spring embedded WebApplicationContext
+2021-11-03_18-13-19 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 905 ms
+2021-11-03_18-13-19 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2021-11-03_18-13-19 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2021-11-03_18-13-19 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:placedOrderDB'
+2021-11-03_18-13-19 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-03_18-13-19 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-03_18-13-19 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-03_18-13-19 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-03_18-13-19 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2021-11-03_18-13-19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path '/placed-order'
+2021-11-03_18-13-19 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - Started PlacedOrdersApplication in 2.668 seconds (JVM running for 3754.51)
+2021-11-03_18-13-19 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-11-03_18-13-19 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - end of application class of Placed order microservice
+2021-11-03_18-13-19 [RMI TCP Connection(73)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-11-03_18-13-19 [RMI TCP Connection(73)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-03_18-13-19 [RMI TCP Connection(73)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2021-11-03_18-13-19 [RMI TCP Connection(73)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2021-11-03_18-36-20 [main] INFO  c.c.p.PlacedOrdersApplication - inside application class of Placed order microservice
+2021-11-03_18-36-20 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - inside application class of Placed order microservice
+2021-11-03_18-36-23 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - Starting PlacedOrdersApplication using Java 15.0.1 on LTIN176896 with PID 2672 (C:\Users\905153\Documents\s_workspace\shopping-website-main.zip_expanded\shopping-website-main\placed_orders\target\classes started by 905153 in C:\Users\905153\Documents\s_workspace\shopping-website-main.zip_expanded\shopping-website-main\placed_orders)
+2021-11-03_18-36-23 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - No active profile set, falling back to default profiles: default
+2021-11-03_18-36-23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-03_18-36-23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-03_18-36-23 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-03_18-36-23 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 534 ms. Found 1 JPA repository interfaces.
+2021-11-03_18-36-23 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2cb7aa9a-a0df-37d0-9e70-dc69e5def960
+2021-11-03_18-36-23 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$2dbc806] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-03_18-36-23 [restartedMain] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-11-03_18-36-23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2021-11-03_18-36-23 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2021-11-03_18-36-23 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-03_18-36-23 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-03_18-36-23 [restartedMain] INFO  o.a.c.c.C.[.[.[/placed-order] - Initializing Spring embedded WebApplicationContext
+2021-11-03_18-36-23 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6860 ms
+2021-11-03_18-36-23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-03_18-36-23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-03_18-36-23 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:placedOrderDB'
+2021-11-03_18-36-23 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-03_18-36-23 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-03_18-36-23 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-03_18-36-23 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-03_18-36-23 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-03_18-36-23 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-03_18-36-23 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2021-11-03_18-36-23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path '/placed-order'
+2021-11-03_18-36-23 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - Started PlacedOrdersApplication in 17.489 seconds (JVM running for 21.932)
+2021-11-03_18-36-23 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - end of application class of Placed order microservice
+2021-11-03_18-36-23 [http-nio-8085-exec-1] INFO  o.a.c.c.C.[.[.[/placed-order] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-03_18-36-23 [http-nio-8085-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-03_18-36-23 [http-nio-8085-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2021-11-03_18-36-23 [http-nio-8085-exec-4] INFO  c.c.p.c.PlacedOrderController - get all orders entry point started of placed-order microservice
+2021-11-03_18-36-23 [http-nio-8085-exec-3] INFO  c.c.p.c.PlacedOrderController - place order entry point started of placed-order microservice
+2021-11-03_18-36-23 [http-nio-8085-exec-3] INFO  c.c.p.c.PlacedOrderController - Returning placed order true status from place order entry point
+2021-11-03_18-36-23 [http-nio-8085-exec-7] INFO  c.c.p.c.PlacedOrderController - get all orders entry point started of placed-order microservice
+2021-11-03_18-36-23 [http-nio-8085-exec-6] INFO  c.c.p.c.PlacedOrderController - place order entry point started of placed-order microservice
+2021-11-03_18-36-23 [http-nio-8085-exec-7] INFO  c.c.p.c.PlacedOrderController - Returning resultant data from get all orders entry point
+2021-11-03_18-36-23 [http-nio-8085-exec-6] INFO  c.c.p.c.PlacedOrderController - Returning placed order true status from place order entry point
+2021-11-03_18-36-23 [http-nio-8085-exec-10] INFO  c.c.p.c.PlacedOrderController - place order entry point started of placed-order microservice
+2021-11-03_18-36-23 [http-nio-8085-exec-2] INFO  c.c.p.c.PlacedOrderController - get all orders entry point started of placed-order microservice
+2021-11-03_18-36-23 [http-nio-8085-exec-2] INFO  c.c.p.c.PlacedOrderController - Returning resultant data from get all orders entry point
+2021-11-03_18-36-23 [http-nio-8085-exec-10] INFO  c.c.p.c.PlacedOrderController - Returning placed order true status from place order entry point
+2021-11-03_18-36-23 [http-nio-8085-exec-3] INFO  c.c.p.c.PlacedOrderController - place order entry point started of placed-order microservice
+2021-11-03_18-36-23 [http-nio-8085-exec-5] INFO  c.c.p.c.PlacedOrderController - get all orders entry point started of placed-order microservice
+2021-11-03_18-36-23 [http-nio-8085-exec-5] INFO  c.c.p.c.PlacedOrderController - Returning resultant data from get all orders entry point
+2021-11-03_18-36-23 [http-nio-8085-exec-3] INFO  c.c.p.c.PlacedOrderController - Returning placed order true status from place order entry point
+2021-11-03_18-36-23 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-03_18-36-23 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-03_18-36-23 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-03_18-36-23 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - inside application class of Placed order microservice
+2021-11-03_18-40-48 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - Starting PlacedOrdersApplication using Java 15.0.1 on LTIN176896 with PID 2672 (C:\Users\905153\Documents\s_workspace\shopping-website-main.zip_expanded\shopping-website-main\placed_orders\target\classes started by 905153 in C:\Users\905153\Documents\s_workspace\shopping-website-main.zip_expanded\shopping-website-main\placed_orders)
+2021-11-03_18-40-48 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - No active profile set, falling back to default profiles: default
+2021-11-03_18-40-48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-03_18-40-48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+2021-11-03_18-40-48 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2cb7aa9a-a0df-37d0-9e70-dc69e5def960
+2021-11-03_18-40-48 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$2dbc806] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-03_18-40-48 [restartedMain] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-11-03_18-40-48 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2021-11-03_18-40-48 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2021-11-03_18-40-48 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-03_18-40-48 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-03_18-40-48 [restartedMain] INFO  o.a.c.c.C.[.[.[/placed-order] - Initializing Spring embedded WebApplicationContext
+2021-11-03_18-40-48 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1170 ms
+2021-11-03_18-40-48 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2021-11-03_18-40-48 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2021-11-03_18-40-48 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:placedOrderDB'
+2021-11-03_18-40-48 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-03_18-40-48 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-03_18-40-48 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-03_18-40-48 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-03_18-40-48 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2021-11-03_18-40-48 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path '/placed-order'
+2021-11-03_18-40-48 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - Started PlacedOrdersApplication in 3.516 seconds (JVM running for 274.262)
+2021-11-03_18-40-48 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-11-03_18-40-48 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - end of application class of Placed order microservice
+2021-11-03_18-40-48 [Thread-8] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-03_18-40-48 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2021-11-03_18-40-48 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2021-11-03_18-40-48 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - inside application class of Placed order microservice
+2021-11-03_18-42-53 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - Starting PlacedOrdersApplication using Java 15.0.1 on LTIN176896 with PID 2672 (C:\Users\905153\Documents\s_workspace\shopping-website-main.zip_expanded\shopping-website-main\placed_orders\target\classes started by 905153 in C:\Users\905153\Documents\s_workspace\shopping-website-main.zip_expanded\shopping-website-main\placed_orders)
+2021-11-03_18-42-53 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - No active profile set, falling back to default profiles: default
+2021-11-03_18-42-53 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-03_18-42-53 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+2021-11-03_18-42-53 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2cb7aa9a-a0df-37d0-9e70-dc69e5def960
+2021-11-03_18-42-53 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$2dbc806] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-03_18-42-53 [restartedMain] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-11-03_18-42-53 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2021-11-03_18-42-53 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2021-11-03_18-42-53 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-03_18-42-53 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-03_18-42-53 [restartedMain] INFO  o.a.c.c.C.[.[.[/placed-order] - Initializing Spring embedded WebApplicationContext
+2021-11-03_18-42-53 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1290 ms
+2021-11-03_18-42-53 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2021-11-03_18-42-53 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2021-11-03_18-42-53 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:placedOrderDB'
+2021-11-03_18-42-53 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-03_18-42-53 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-03_18-42-53 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-03_18-42-53 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-03_18-42-53 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2021-11-03_18-42-53 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path '/placed-order'
+2021-11-03_18-42-53 [http-nio-8085-exec-1] INFO  o.a.c.c.C.[.[.[/placed-order] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-03_18-42-53 [http-nio-8085-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-03_18-42-53 [http-nio-8085-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2021-11-03_18-42-53 [http-nio-8085-exec-2] INFO  c.c.p.c.PlacedOrderController - get all orders entry point started of placed-order microservice
+2021-11-03_18-42-53 [http-nio-8085-exec-1] INFO  c.c.p.c.PlacedOrderController - place order entry point started of placed-order microservice
+2021-11-03_18-42-53 [http-nio-8085-exec-1] INFO  c.c.p.c.PlacedOrderController - Returning placed order true status from place order entry point
+2021-11-03_18-42-53 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - Started PlacedOrdersApplication in 4.626 seconds (JVM running for 400.222)
+2021-11-03_18-42-53 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-11-03_18-42-53 [restartedMain] INFO  c.c.p.PlacedOrdersApplication - end of application class of Placed order microservice
+2021-11-03_18-42-53 [http-nio-8085-exec-5] INFO  c.c.p.c.PlacedOrderController - place order entry point started of placed-order microservice
+2021-11-03_18-42-53 [http-nio-8085-exec-6] INFO  c.c.p.c.PlacedOrderController - get all orders entry point started of placed-order microservice
+2021-11-03_18-42-53 [http-nio-8085-exec-6] INFO  c.c.p.c.PlacedOrderController - Returning resultant data from get all orders entry point
+2021-11-03_18-42-53 [http-nio-8085-exec-5] INFO  c.c.p.c.PlacedOrderController - Returning placed order true status from place order entry point
+2021-11-03_18-42-53 [http-nio-8085-exec-7] INFO  c.c.p.c.PlacedOrderController - place order entry point started of placed-order microservice
+2021-11-03_18-42-53 [http-nio-8085-exec-8] INFO  c.c.p.c.PlacedOrderController - get all orders entry point started of placed-order microservice
+2021-11-03_18-42-53 [http-nio-8085-exec-8] INFO  c.c.p.c.PlacedOrderController - Returning resultant data from get all orders entry point
+2021-11-03_18-42-53 [http-nio-8085-exec-7] INFO  c.c.p.c.PlacedOrderController - Returning placed order true status from place order entry point

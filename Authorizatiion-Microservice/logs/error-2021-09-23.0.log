@@ -1,0 +1,9 @@
+2021-09-23_20-52-19 [http-nio-8084-exec-1] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2021-09-23_20-52-19 [http-nio-8084-exec-3] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2021-09-23_20-52-19 [http-nio-8084-exec-5] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2021-09-23_20-52-19 [http-nio-8084-exec-10] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2021-09-23_20-52-19 [http-nio-8084-exec-9] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2021-09-23_20-52-19 [http-nio-8084-exec-7] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2021-09-23_20-52-19 [http-nio-8084-exec-10] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2021-09-23_22-37-16 [http-nio-8084-exec-4] ERROR c.c.a.config.JwtRequestFilter - JWT Token has expired
+2021-09-23_22-37-16 [http-nio-8084-exec-3] ERROR c.c.a.config.JwtRequestFilter - JWT Token has expired
