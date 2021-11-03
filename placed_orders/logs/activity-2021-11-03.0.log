@@ -232,3 +232,6 @@
 2021-11-03_18-42-53 [http-nio-8085-exec-8] INFO  c.c.p.c.PlacedOrderController - get all orders entry point started of placed-order microservice
 2021-11-03_18-42-53 [http-nio-8085-exec-8] INFO  c.c.p.c.PlacedOrderController - Returning resultant data from get all orders entry point
 2021-11-03_18-42-53 [http-nio-8085-exec-7] INFO  c.c.p.c.PlacedOrderController - Returning placed order true status from place order entry point
+2021-11-03_18-42-53 [http-nio-8085-exec-2] INFO  c.c.p.c.PlacedOrderController - place order entry point started of placed-order microservice
+2021-11-03_18-42-53 [http-nio-8085-exec-1] INFO  c.c.p.c.PlacedOrderController - get all orders entry point started of placed-order microservice
+2021-11-03_18-42-53 [http-nio-8085-exec-1] INFO  c.c.p.c.PlacedOrderController - Returning resultant data from get all orders entry point

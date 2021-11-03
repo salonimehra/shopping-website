@@ -212,3 +212,9 @@
 2021-11-03_18-35-01 [http-nio-8084-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
 2021-11-03_18-35-01 [http-nio-8084-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
 2021-11-03_18-35-01 [http-nio-8084-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-11-03_18-35-01 [http-nio-8084-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-11-03_18-35-01 [http-nio-8084-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-11-03_18-35-01 [http-nio-8084-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-11-03_18-35-01 [http-nio-8084-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-11-03_18-35-01 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-11-03_18-35-01 [http-nio-8084-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
